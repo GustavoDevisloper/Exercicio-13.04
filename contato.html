@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Projeto Aplicações para Internet</h1>
+        <script src="script.js"></script>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sobre.html">SOBRE</a> </li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
+    <inf>
+        <h1>Informações de contato</h1>
+    </inf>
+    <inf2>
+        <p>Diga algo para iniciar um bate-papo ao vivo!</p>
+    </inf2>
+    <contato>
+        <h1>Contate nos</h1>
+        <p>Alguma pergunta ou observação? Basta nos escrever uma mensagem!</p>
+    </contato>
+
+    <later>
+        <img src="./assets/imgs/leter.png" alt="Later">
+    </later>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" class="input-nome">
+
+        <sobre for="sobrenome" class="label-sobrenome">Sobrenome:</sobre>
+        <input type="text" id="sobrenome" class="in-sobrenome">
+        
+        <email for="email" class="label-email">Email:</email>
+        <input type="email" id="email" class="in-email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+
+        <number for="numero" class="label-number">Numero:</number>
+        <input type="tel" class="in-number" pattern="[0-9]{10,}" title="Digite um número de telefone válido (apenas números)">
+        <button type="submit" class="enviar">Enviar mensagem</button>
+
+      </form>
+      <assunto>
+        <h1>Selecione o assunto</h1>
+    </assunto>
+    <div class="form-container">
+        <div class="form-option" onclick="selectOption(this)">
+          <div class="form-circle"></div>
+          <span class="form-text">Sugestão</span>
+        </div>
+      </div>
+      <message>
+        <h2>Escreva sua mensagem</h2>
+      </message>
+
+        <textarea class="caixa-de-texto" placeholder="Digite aqui..."></textarea>
+        <phone>
+            <img src="./assets/imgs/phone.svg" alt="Descrição da imagem">
+        </phone>
+        <pphone>
+            <p>(11) 4002-8922</p>
+        </pphone>
+        <iemail>
+            <img src="./assets/imgs/email.svg" alt="Descrição da imagem">
+        </iemail>
+        <piemail>
+            <p>cursoads.contato@gmail.com</p>
+        </piemail>
+        <loc>
+            <img src="./assets/imgs/loc.svg" alt="Descrição da imagem">
+        </loc>
+        <ploc>
+            <p>132 Casa do joao</p>
+        </ploc>
+        <a href="https://twitter.com/" target="_blank">
+            <div class="circle">
+              <img src="./assets/imgs/twitter.svg">
+            </div>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <div class="circle-insta">
+              <img src="./assets/imgs/instagram.svg">
+            </div>
+          </a>
+          <a href="https://discord.com/" target="_blank">
+            <div class="circle-discord">
+              <img src="./assets/imgs/discord.svg">
+            </div>
+          </a>
+</body>
+</html>
